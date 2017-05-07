@@ -1,11 +1,10 @@
-async function one() {
-  return 'one';
-}
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Global from './components/Global';
 
-async function two() {
-  throw new Error( 'two');
-}
 
-one().then(response => console.log(response));
 
-two().catch(rejected => console.log(rejected));
+ReactDOM.render(
+  <Global />,
+  document.getElementById('root')
+);
