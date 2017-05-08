@@ -16,7 +16,7 @@
     ]
   },
   "keywords": [],
-  "author": "",
+  "author": "Haris Sucipto",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.24.0",

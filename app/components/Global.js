@@ -27,6 +27,8 @@ class Global extends Component {
     return (
       <div className="Global">
         <h2>Book Explorer!</h2>
+        <small>Code By Haris Sucipto</small>
+        <hr></hr>
         <FormGroup>
           <InputGroup>
             <FormControl
